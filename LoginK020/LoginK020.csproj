@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.png" />
+    <None Remove="2.png" />
+    <None Remove="3.png" />
+    <None Remove="4.png" />
+    <None Remove="5.png" />
+    <None Remove="6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imagenes\1.png" />
+    <Resource Include="imagenes\2.png" />
+    <Resource Include="imagenes\3.png" />
+    <Resource Include="imagenes\4.png" />
+    <Resource Include="imagenes\5.png" />
+    <Resource Include="imagenes\6.png" />
+  </ItemGroup>
+
+</Project>
